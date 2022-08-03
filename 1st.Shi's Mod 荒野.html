@@ -1,0 +1,418 @@
+<html>
+<meta charset="UTF-8">
+ 
+  <body style="background-image:url(https://qph.fs.quoracdn.net/main-qimg-9dd1c4d3478d667fd7b07d03f75b4075);background-size:50%;"></body>
+
+<script>
+setWindowDrag(0, 0, 330, 30);
+setWindowRect((window.screen.height) / 4 - 150,(window.screen.width) / 2 - 145, 330, 1000);
+ 
+
+
+
+
+</script>
+  
+<link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+
+<h1>メニュー</h1>
+  <style>
+  h1 {
+  font-family: "Nikukyu";
+}
+    </style>
+
+<style>
+body {
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+</style>
+
+<body>
+<font size="2" color="purple">
+<br><br>
+</font>
+<font size="1" color="blue">
+    <div style="display:flex;"><div><details>
+  
+      
+        
+      <summary>拡大<style>h1 {
+  font-family: "Nico Moji";
+}</style></summary><link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <li><button type="button"onclick="f10()">Head1.5ON</button>
+<button type="button"onclick="f11()">Head1.5OFF</button>
+      </li><br>
+    <li><button type="button"onclick="f4()">Head0.25ON</button>
+<style>
+button{
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+button {
+  position: relative;
+  display: inline-block;
+  padding: 1em 2em 1em 1em;
+  width: 135px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+    line-height: 1;
+  background: #5bbee5;
+  background: linear-gradient(to right, #5bbee5, #fffdae);
+  text-indent: 0.1em;
+  letter-spacing: 0.1em;
+  border-radius: 1.5em;
+
+  
+}
+
+
+}
+
+button:hover:after{
+  right: 1em;
+}
+ 
+}
+  h1 {
+  font-family: "Nico Moji";
+</style><button type="button"onclick="f5()">Head0.25OFF</button>
+
+      </li><br>
+  <li><button type="button"onclick="f20()">Body0.37ON</button>
+<button type="button"onclick="f21()">Body0.37OFF</button>
+</li>
+  </details></div>
+  <br>
+ <div> <details>
+    <summary>アンテナ</summary><li><button type="button"onclick="f6()">AntennaON</button>
+<button type="button"onclick="f7()">AntennaOFF</button>
+</li>
+
+<li><button type="button"onclick="f17()">Antenna2ON</button>
+<button type="button"onclick="f18()">Antenna2OFF</button>
+  </li>
+   <li><button type="button"onclick="f29()">Antenna3ON</button>
+<button type="button"onclick="f30()">Antenna3OFF</button>
+<style>
+button{
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+button {
+  position: relative;left:0px;top:5px;
+  display: inline-block;
+  padding: 1em 2em 1em 1em;
+  width: 63px;
+  font-size: 7px;
+  color: white;
+  text-align: center;
+    line-height: 1;
+  background: #5bbee5;
+  background: linear-gradient(to right, #5bbee5, black);
+  text-indent: 0.1em;
+  letter-spacing: 0.1em;
+  border-radius: 1.5em;
+
+  
+}
+
+
+}
+
+button:hover:after{
+  right: 1em;
+}
+</style></li></details></div>
+  <br>  
+  <button type="button"onclick="f8()">Infinitjump</button>
+
+<button type="button"onclick="f9()">Highjump</button>
+
+<button type="button"onclick="f15()">EcoGasON</button>
+
+<button type="button"onclick="f16()">EcoGasOFF</button>
+
+  <br>
+
+<button type="button"onclick="f22()">NoRecoilON</button>
+
+<button type="button"onclick="f23()">NoRecoilOFF</button>
+
+   
+ <button type="button"onclick="f24()">LitRecoilON</button>
+
+
+ 
+<button type="button"onclick="f25()">LitRecoilOFF</button>
+
+      <br>
+ <button type="button"onclick="f26()">SpeedHackON</button>
+
+<button type="button"onclick="f27()">SpeedHackOFF</button>
+<button type="button"onclick="f31()">PlayerSpinON</button>
+      
+
+      <br><br><br><br><br><br><button onclick="location.href='./Index.html'">BacktoEditor</button>
+
+</font>
+  
+  
+
+<script>
+
+
+function f2(){ //無反動
+if (typeof Flags1 === 'undefined'){
+for (var i = 0; i < count2; i++) {
+addr2 = r2[i].address;
+h5gg.setValue(addr2, '0', 'F64');
+}
+Flags1=1
+}else{
+for (var i = 0; i < count2; i++) {
+addr2 = r2[i].address;
+h5gg.setValue(addr2, '1', 'F64');
+}
+Flags1=undefined
+}
+};
+function f3(){ //頭拡大
+if (typeof Flags1 === 'undefined'){
+for (var i = 0; i < count3; i++) {
+addr3 = r3[i].address;
+h5gg.setValue(addr3, '1.5', 'F32');
+}
+Flags1=1
+}else{
+for (var i = 0; i < count3; i++) {
+addr3 = r3[i].address;
+h5gg.setValue(addr3, '0.15', 'F32');
+}
+Flags1=undefined
+}
+};
+
+
+function f4(){ //頭微拡大オン
+h5gg.clearResults();
+h5gg.searchNumber('1','I16','0x280000000','0x300000000');
+h5gg.searchNearby('0.15','F32','0x10');
+h5gg.searchNumber('0.15','F32','0x280000000','0x300000000');
+h5gg.searchNearby('1','I64','0x10');
+h5gg.searchNumber('0.15','F32','0x280000000','0x300000000');
+h5gg.editAll('0.25333','F32');
+h5gg.clearResults();
+alert("Onned head0.25")
+};
+
+function f5(){ //頭拡大オフ
+h5gg.clearResults();
+h5gg.searchNumber('1','I16','0x280000000','0x300000000');
+h5gg.searchNearby('0.25333','F32','0x10');
+h5gg.searchNumber('0.25333','F32','0x280000000','0x300000000');
+h5gg.searchNearby('1','I64','0x10');
+h5gg.searchNumber('0.25333','F32','0x280000000','0x300000000');
+h5gg.editAll('0.15','F32');
+h5gg.clearResults();
+alert("Offed head0.15")
+
+};
+
+function f6(){ //アンテナオン
+
+h5gg.clearResults();
+h5gg.searchNumber('-1113249618','I32','0x150000000','0x290000000');
+h5gg.editAll('999999','F32');
+h5gg.clearResults();
+h5gg.searchNumber('-1114705880','I32','0x150000000','0x290000000');
+h5gg.editAll('999999','F32');
+h5gg.clearResults();
+alert("Onned antenna")
+};
+
+function f7(){ //アンテナオフ
+h5gg.clearResults();
+h5gg.searchNumber('999999', 'F32', '0x150000000', '0x400000000'); 
+h5gg.editAll('0.1', 'F32'); 
+alert("Offed antenna")
+};
+ 
+function f8(){ //無限ジャンプ
+
+h5gg.searchNumber('-10','F32','0x150000000','0x290000000');
+h5gg.searchNearby('50','F32','0x100');
+h5gg.searchNearby('0.55','F32','0x100');
+h5gg.searchNumber('0.55','F32','0x150000000','0x290000000');
+h5gg.editAll('9999','F32');
+h5gg.clearResults();
+ alert("Onned Infinit jump")
+};
+  
+function f9(){ //ハイジャンプ
+h5gg.searchNumber('-5','F32','0x150000000','0x290000000');
+h5gg.editAll('50','F32');
+h5gg.clearResults();
+alert("Onned Highjump")
+};
+function f10(){ //頭微拡大オン
+h5gg.clearResults();
+h5gg.searchNumber('1','I16','0x280000000','0x300000000');
+h5gg.searchNearby('0.15','F32','0x10');
+h5gg.searchNumber('0.15','F32','0x280000000','0x300000000');
+h5gg.searchNearby('1','I64','0x10');
+h5gg.searchNumber('0.15','F32','0x280000000','0x300000000');
+h5gg.editAll('1.51414','F32');
+h5gg.clearResults();
+alert("Onned Head1.5")
+};
+
+function f11(){ //頭拡大オフ
+h5gg.clearResults();
+h5gg.searchNumber('1','I16','0x280000000','0x300000000');
+h5gg.searchNearby('1.51414','F32','0x10');
+h5gg.searchNumber('1.51414','F32','0x280000000','0x300000000');
+h5gg.searchNearby('1','I64','0x10');
+h5gg.searchNumber('1.51414','F32','0x280000000','0x300000000');
+h5gg.editAll('0.15','F32');
+h5gg.clearResults();
+alert("Offed Head1.5")
+
+};
+function f15(){ //がソ無限
+h5gg.clearResults();
+h5gg.searchNumber('5','F32','0x0000000','0x300000000');
+h5gg.searchNearby('4','F32','0x10');
+h5gg.searchNumber('4','F32','0x0000000','0x300000000');
+h5gg.searchNearby('1','F32','0x10');
+h5gg.searchNumber('1','F32','0x0000000','0x300000000');
+h5gg.editAll('0.0114514','F32');
+h5gg.clearResults();
+alert("Onned ecocar")
+};
+function f16(){ //がソ無限おふ
+h5gg.clearResults();
+h5gg.searchNumber('5','F32','0x0000000','0x300000000');
+h5gg.searchNearby('4','F32','0x10');
+h5gg.searchNumber('4','F32','0x0000000','0x300000000');
+h5gg.searchNearby('0.0114514','F32','0x10');
+h5gg.searchNumber('0.0114514','F32','0x0000000','0x300000000');
+h5gg.editAll('1','F32');
+h5gg.clearResults();
+alert("Offed ecocar")
+};
+function f17(){ //あんてな31
+h5gg.searchNumber('-0.00031','F32','0x280000000','0x290000000');
+h5gg.editAll('999998','F32');
+h5gg.clearResults();
+alert("Onned Antenna")
+};
+function f18(){ //あんてなおふ
+h5gg.searchNumber('999998','F32','0x150000000','0x290000000');
+h5gg.editAll('-0.00031','F32');
+h5gg.clearResults();
+alert("Offed Antenna")
+};
+function f20(){ //胴体0.37
+h5gg.searchNumber('0.22','F32','0x250000000','0x290000000');
+h5gg.editAll('0.3711','F32');
+h5gg.clearResults();
+alert("Onned Body")
+};
+ function f29(){ //あんてな1
+h5gg.searchNumber('-0.00031','F32','0x250000000','0x290000000');
+h5gg.searchNearby('1','F32','0x30');
+h5gg.editAll('999998','F32');
+h5gg.clearResults();
+alert("Onned Antenna3")
+   };
+function f30(){ //あんてなおふ
+h5gg.searchNumber('999998','F32','0x150000000','0x290000000');
+h5gg.editAll('-0.00031','F32');
+h5gg.clearResults();
+alert("Offed Antenna3")
+};
+function f21(){ //胴体0.37of
+h5gg.searchNumber('0.3711','F32','0x250000000','0x290000000');
+h5gg.editAll('0.22','F32');
+h5gg.clearResults();
+alert("Offed Body")
+};
+function f22(){ //onむはん
+h5gg.searchNumber('1082515456','I32','0x100000000','0x200000000');
+h5gg.editAll('1099000000','I32');
+h5gg.clearResults();
+alert("Onned NoRecoil")
+};
+function f23(){ //offむはん
+h5gg.searchNumber('1099000000','I32','0x100000000','0x200000000');
+h5gg.editAll('1082515456','I32');
+h5gg.clearResults();
+alert("Offed NoRecoil")
+};
+function f24(){ //onむはん
+h5gg.searchNumber('1082515456','I32','0x100000000','0x200000000');
+h5gg.editAll('1085000000','I32');
+h5gg.clearResults();
+alert("Onned LittleRecoil")
+};
+function f25(){ //onむはん
+h5gg.searchNumber('1085000000','I32','0x100000000','0x200000000');
+h5gg.editAll('1082515456','I32');
+h5gg.clearResults();
+alert("Offed LittleRecoil")
+};
+function f26(){ //かそくおん
+h5gg.clearResults();
+h5gg.searchNumber('1.2','F64','0x0000000','0x200000000');
+h5gg.searchNearby('0.05','F64','0x100');
+h5gg.searchNumber('0.05','F64','0x0000000','0x200000000');
+h5gg.searchNearby('1','F64','0x100');
+h5gg.searchNumber('1','F64','0x0000000','0x200000000');
+h5gg.editAll('1.14','F64');
+h5gg.clearResults();
+alert("Onned SpeedHack")
+};
+function f27(){ //かそくおふ
+h5gg.clearResults();
+h5gg.searchNumber('1.2','F64','0x0000000','0x200000000');
+h5gg.searchNearby('0.05','F64','0x100');
+h5gg.searchNumber('0.05','F64','0x0000000','0x200000000');
+h5gg.searchNearby('1.14','F64','0x100');
+h5gg.searchNumber('1.14','F64','0x0000000','0x200000000');
+h5gg.editAll('1','F64');
+h5gg.clearResults();
+alert("Offed SpeedHack")
+};
+function f28(){ //アイコン消し
+h5gg.searchNumber('50','F64','0x100000000','0x120000000');
+h5gg.editAll('1','F64');
+h5gg.clearResults();
+};
+function f31(){ //くるくるおん
+h5gg.clearResults();
+h5gg.searchNumber('-9.8','F32','0x100000000','0x200000000');
+h5gg.searchNearby('1.e010','F32','0x100');
+h5gg.searchNumber('1.e010','F32','0x100000000','0x200000000');
+h5gg.editAll('-55','F32');
+h5gg.clearResults();
+alert("Onned PlayerSpin")
+};
+</script>
+
+</body>
+</html>
